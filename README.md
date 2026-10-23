@@ -139,4 +139,4 @@ index.js       arranque del servidor
 
 ## Autora
 
-Proyecto de grado, SENA. [COMPLETAR: nombre completo, programa y año]
+Proyecto de grado
