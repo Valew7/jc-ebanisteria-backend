@@ -20,7 +20,6 @@ Este repositorio es solo el backend. El frontend (HTML, CSS y JS) va por separad
 - PostgreSQL (librería `pg`)
 - Postman / Thunder Client para las pruebas
 
-Según el documento de arquitectura, también están previstos JWT y bcrypt para el login, y Docker para el despliegue. [COMPLETAR: dejar solo lo que ya esté hecho en el código]
 
 ## Cómo correrlo
 
@@ -32,17 +31,6 @@ cd jc-ebanisteria-backend
 npm install
 ```
 
-Crea un archivo `.env` en la raíz con los datos de tu base de datos. Estas son las variables, con valores de ejemplo:
-
-```
-DB_HOST=localhost
-DB_PORT=5432
-DB_NAME=jc_ebanisteria_db
-DB_USER=tu_usuario
-DB_PASSWORD=tu_contraseña
-```
-
-[COMPLETAR: revisar que los nombres coincidan con los de `config/db.js`]
 
 Después arranca el servidor:
 
@@ -106,7 +94,6 @@ La nota no puede pasar de 200 caracteres.
 | POST | `/api/cotizaciones` | Crea una cotización para un pedido |
 | POST | `/api/materialusado` | Registra material usado y lo descuenta del stock |
 
-[COMPLETAR: agregar aquí los demás endpoints (clientes, productos, materiales, usuarios) que ya tengas]
 
 ### Seguimiento público
 
@@ -137,6 +124,6 @@ routes/        las rutas de la API
 index.js       arranque del servidor
 ```
 
-## Autora
+## Final
 
 Proyecto de grado
